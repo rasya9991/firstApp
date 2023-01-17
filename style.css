@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* container */
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:#C4C4C4 ;
+  width: 661px;
+  min-height: 763px;
+  height: auto;
+  padding: 64px 0;
+  padding-left: 74px;
+  padding-right: 84px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* SEARCH INPUT */
+
+.search-input{
+  background-color: #fff;
+}
+
+.autocom-box{
+  list-style: none;
+  font-size: 30px;
+}
+
+.autocom-el{
+  padding: 0;
+  margin: 0;
+  background-color: #E3E3E3;
+  border: 2px solid #000;
+  padding: 5px 13px;
+}
+
+.autocom-el:hover{
+  background-color: #65CDF9;
+}
+
+/* search form */
+.search-form{
+  padding: 5px 12px;
+  width: 500px;
+  height: 61px;
+  font-size: 48px;
+}
+
+
+/* search form */
+
+/* SEARCH INPUT */
+
+/* repos */
+.repos{
+  margin-top: auto;
+}
+.repos--selected{
+  background-color:#E27BEB ;
+  width: 500px;
+  height: 101px;
+  border: 1px solid #000;
+  list-style: none;
+
+}
+
+.repos__content{
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.button__close{
+  position: absolute;
+  top: 31px;
+  right: 47px;
+
+  width: 42px;
+  height: 38px;
+  border: 0;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.button__close::after{
+  content: "";
+  display: block;
+
+  width: 4px;
+  height: 50px;
+  top: -2px;
+  left: 16.5px;
+  transform: rotate(45deg);
+  background-color: red;
+  position: absolute;
+}
+
+.button__close::before{
+  content: "";
+  display: block;
+
+  width: 4px;
+  height: 50px;
+  top: -2px;
+  left: 16.5px;
+  transform: rotate(-45deg);
+  background-color: red;
+  position: absolute;
+}
+/* repos */
+
+
+
+/* container */
